@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "constructData",
+						"type": "bytes"
+					},
+					{
+						"internalType": "address",
+						"name": "contractLogic",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Upgradable E1P 1822/Proxy.sol": "Proxy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Upgradable E1P 1822/Proxy.sol": {
+			"keccak256": "0xaec75562ca4683ba2e2847fdf94de7f337632992edefe954fc5e625ca4284e58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d50280a2e9320299f2167e3794244e5962a35739ff9b2fc4c6011de91c40ade4",
+				"dweb:/ipfs/Qma7RuMunv5ks6VSdHyVw3HFtTZ29ZomaGJNutWENnrLCx"
+			]
+		}
+	},
+	"version": 1
+}
